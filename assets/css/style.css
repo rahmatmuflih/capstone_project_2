@@ -1,0 +1,245 @@
+* {
+  font-family: "Inconsolata", monospace;
+}
+body {
+  background-size: 100px 100px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+nav {
+  padding: 10px 103px 0 0;
+}
+.relative {
+  position: relative;
+}
+.brief {
+  background-color: rgba(31, 217, 242, 0.6);
+  border: dashed black 1px;
+  width: 480px;
+  height: fit-content;
+  height: max-content;
+  padding: 7px 15px 7px 14px;
+  font-size: 20px;
+  margin-bottom: 205px;
+}
+.photo svg {
+  margin-left: 185px;
+}
+.dashed-line {
+  max-width: 30.2%;
+  min-width: 30.2%;
+  border: 1px black dashed;
+  position: absolute;
+  margin-left: 480px;
+}
+.social-media svg {
+  width: fit-content !important;
+  margin: 0;
+}
+.logo {
+  height: 30px;
+}
+hr {
+  margin: -15px 0 53px;
+}
+.edu-line {
+  width: 40px;
+  margin-top: 5px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 0 5px white inset;
+  border-radius: 50px;
+  background-color: black;
+}
+.line {
+  width: 0;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.item-skill {
+  text-align: center;
+}
+.item-skill p {
+  margin: 10px auto;
+  width: fit-content;
+}
+.about-me-border {
+  width: 100%;
+}
+#About-Me h1 {
+  position: relative;
+  z-index: 1;
+  margin-left: 150px;
+  bottom: 180px;
+}
+.gradient-background {
+  padding: 0 205px;
+  gap: 100px !important;
+  margin: auto;
+}
+footer {
+  padding: 0;
+  height: 100%;
+  background-color: #1fd9f2;
+}
+footer h1 {
+  color: white;
+}
+.card,
+.list-group-item {
+  border: 1px black dashed;
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .name {
+    width: 75%;
+    align-items: start !important;
+    margin-left: 196px;
+  }
+  .brief {
+    order: 2;
+    margin: 100px 0 0 300px;
+  }
+  .photo {
+    order: 1;
+    margin-left: 100px;
+    width: 75%;
+  }
+  .dashed-line {
+    width: 0px;
+    border-left: 1px black dashed;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    position: absolute;
+    height: 280px;
+    margin: 280px 0 0 298px;
+  }
+  .social-media {
+    width: 55% !important;
+  }
+}
+@media (max-width: 992px) {
+  .name {
+    width: 90%;
+    align-items: start !important;
+    margin-left: 196px;
+  }
+  .photo {
+    margin-left: -40px;
+  }
+  .brief {
+    margin: 100px 0 0 159px;
+  }
+  .dashed-line {
+    height: 280px;
+    margin: 280px 0 0 158px;
+  }
+  .gradient-background {
+    padding: 20px 15px;
+    margin: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .name {
+    width: 120%;
+  }
+  .photo {
+    margin-left: -100px;
+  }
+  .brief {
+    margin: 100px 0 0 99px;
+  }
+  .dashed-line {
+    height: 280px;
+    margin: 280px 0 0 99px;
+  }
+  #About-Me h1 {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 659px) {
+  .name {
+    width: 120%;
+  }
+  .photo {
+    margin-left: -150px;
+  }
+  .brief {
+    margin: 100px 0 0 49px;
+  }
+  .dashed-line {
+    height: 280px;
+    margin: 280px 0 0 49px;
+  }
+}
+@media (max-width: 528px) {
+  .name {
+    width: 100%;
+    margin-top: -40px;
+  }
+  .photo {
+    margin-left: -160px;
+  }
+  .photo svg {
+    width: 250px;
+  }
+  .social-media {
+    gap: 10px !important;
+    width: 100%;
+    justify-content: start;
+  }
+  .brief {
+    margin: 20px 0 0 38px;
+    width: 75%;
+  }
+  .brief p {
+    font-size: 10pt;
+  }
+  .brief span {
+    font-size: 12pt !important;
+  }
+  .dashed-line {
+    height: 42%;
+    margin: 280px 0 0 38px;
+  }
+  .social-media {
+    padding-left: 25px;
+  }
+  #About-Me h1 {
+    margin: 10px 0 0 20px;
+    font-size: 16pt !important;
+    bottom: 50px;
+  }
+  #About-Me svg {
+    height: fit-content;
+  }
+  .gradient-background {
+    padding: 20px 15px;
+    margin: auto !important;
+  }
+  .edu {
+    margin: auto !important;
+  }
+  .skill {
+    margin: auto !important;
+  }
+  .porto {
+    margin: auto !important;
+  }
+}
+@media (max-width: 370px) {
+  .dashed-line {
+    margin-top: 220px;
+    height: 37%;
+  }
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Site</title>
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="d-flex justify-content-end">Resume &copy; 2023</nav>
+    <section id="hero" class="my-5">
+      <div class="container mt-5">
+        <div
+          class="d-flex justify-content-between align-items-center row relative"
+        >
+          <div class="brief col-xl-6">
+            <p>
+              Hello, my name is <span class="fw-bold fs-3">Muflih</span>, and
+              I'm <span class="fw-bold fs-3">Full-Stack Developer</span>. I have
+              a strong command over both front-end and back-end technologies,
+              allowing me to build complete and scalable applications.
+            </p>
+          </div>
+
+          <div class="dashed-line"></div>
+          <div class="photo col-xl-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="464"
+              height="533"
+              viewBox="0 0 310 289"
+              fill="none"
+            >
+              <g transform="translate(0,20)">
+                <path
+                  id="blob-view"
+                  d="M288.049 208.187C264.806 238.319 240.607 258.355 215.451 268.295C190.294 278.235 166.095 283.516 142.852 284.138C119.61 284.759 87.7541 286.312 47.285 288.797C6.81585 291.282 -7.67647 270.935 3.80801 227.757C15.2925 184.578 18.1636 143.885 12.4214 105.676C6.67913 67.4681 18.5738 37.9576 48.1053 17.1449C77.6368 -3.66781 106.895 -5.53163 135.88 11.5534C164.864 28.6385 196.446 39.0448 230.626 42.7725C264.806 46.5001 288.732 67.4681 302.404 105.676C316.076 143.885 311.291 178.055 288.049 208.187Z"
+                  fill="#1FD9F2"
+                />
+                <path
+                  stroke="black"
+                  stroke-dasharray="3"
+                  fill="none"
+                  d="M288.049 208.187C264.806 238.319 240.607 258.355 215.451 268.295C190.294 278.235 166.095 283.516 142.852 284.138C119.61 284.759 87.7541 286.312 47.285 288.797C6.81585 291.282 -7.67647 270.935 3.80801 227.757C15.2925 184.578 18.1636 143.885 12.4214 105.676C6.67913 67.4681 18.5738 37.9576 48.1053 17.1449C77.6368 -3.66781 106.895 -5.53163 135.88 11.5534C164.864 28.6385 196.446 39.0448 230.626 42.7725C264.806 46.5001 288.732 67.4681 302.404 105.676C316.076 143.885 311.291 178.055 288.049 208.187Z"
+                />
+              </g>
+              <g transform="translate(-50,-120)">
+                <image
+                  href="./assets/images/Rahmat_Muflih_Arifin.jpg"
+                  path="url(#blob-view)"
+                  width="320"
+                  height="606"
+                />
+              </g>
+            </svg>
+
+            <div class="d-flex flex-column align-items-end name">
+              <h1 class="order-2 fw-bold">Full-Stack Web Developer</h1>
+              <h2 class="lead order-1 w-75 fs-2 me-1">Rahmat Muflih Arifin</h2>
+              <div
+                class="order-3 d-flex w-75 gap-3 justify-content-center social-media"
+              >
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/in/rahmat-muflih-arifin-040a23144/"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="29"
+                    height="29"
+                    viewBox="0 0 29 29"
+                    fill="none"
+                  >
+                    <path
+                      d="M26.8533 0H2.14102C0.957227 0 0 0.93457 0 2.09004V26.9043C0 28.0598 0.957227 29 2.14102 29H26.8533C28.0371 29 29 28.0598 29 26.91V2.09004C29 0.93457 28.0371 0 26.8533 0ZM8.60371 24.7123H4.29902V10.8693H8.60371V24.7123ZM6.45137 8.9832C5.06934 8.9832 3.95352 7.86738 3.95352 6.49102C3.95352 5.11465 5.06934 3.99883 6.45137 3.99883C7.82773 3.99883 8.94355 5.11465 8.94355 6.49102C8.94355 7.86172 7.82773 8.9832 6.45137 8.9832ZM24.7123 24.7123H20.4133V17.9834C20.4133 16.3805 20.385 14.3131 18.176 14.3131C15.9387 14.3131 15.5988 16.0633 15.5988 17.8701V24.7123H11.3055V10.8693H15.4289V12.7611H15.4855C16.0576 11.6736 17.4623 10.5238 19.5523 10.5238C23.908 10.5238 24.7123 13.3898 24.7123 17.1168V24.7123Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/rahmatmufliharifin/">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="29"
+                    height="29"
+                    viewBox="0 0 29 29"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.5 2.61113C18.3742 2.61113 18.833 2.62812 20.3566 2.69609C21.7727 2.7584 22.5373 2.99629 23.0471 3.19453C23.7211 3.45508 24.2082 3.77227 24.7123 4.27637C25.2221 4.78613 25.5336 5.26758 25.7941 5.9416C25.9924 6.45137 26.2303 7.22168 26.2926 8.63203C26.3605 10.1613 26.3775 10.6201 26.3775 14.4887C26.3775 18.3629 26.3605 18.8217 26.2926 20.3453C26.2303 21.7613 25.9924 22.526 25.7941 23.0357C25.5336 23.7098 25.2164 24.1969 24.7123 24.701C24.2025 25.2107 23.7211 25.5223 23.0471 25.7828C22.5373 25.9811 21.767 26.2189 20.3566 26.2812C18.8273 26.3492 18.3686 26.3662 14.5 26.3662C10.6258 26.3662 10.167 26.3492 8.64336 26.2812C7.22734 26.2189 6.4627 25.9811 5.95293 25.7828C5.27891 25.5223 4.7918 25.2051 4.2877 24.701C3.77793 24.1912 3.46641 23.7098 3.20586 23.0357C3.00762 22.526 2.76973 21.7557 2.70742 20.3453C2.63945 18.816 2.62246 18.3572 2.62246 14.4887C2.62246 10.6145 2.63945 10.1557 2.70742 8.63203C2.76973 7.21602 3.00762 6.45137 3.20586 5.9416C3.46641 5.26758 3.78359 4.78047 4.2877 4.27637C4.79746 3.7666 5.27891 3.45508 5.95293 3.19453C6.4627 2.99629 7.23301 2.7584 8.64336 2.69609C10.167 2.62812 10.6258 2.61113 14.5 2.61113ZM14.5 0C10.5635 0 10.0707 0.0169922 8.52442 0.0849609C6.98379 0.15293 5.92461 0.402148 5.00703 0.758984C4.04981 1.13281 3.23984 1.62559 2.43555 2.43555C1.62559 3.23984 1.13281 4.04981 0.758984 5.00137C0.402148 5.92461 0.15293 6.97812 0.084961 8.51875C0.0169922 10.0707 0 10.5635 0 14.5C0 18.4365 0.0169922 18.9293 0.084961 20.4756C0.15293 22.0162 0.402148 23.0754 0.758984 23.993C1.13281 24.9502 1.62559 25.7602 2.43555 26.5645C3.23984 27.3688 4.04981 27.8672 5.00137 28.2354C5.92461 28.5922 6.97813 28.8414 8.51875 28.9094C10.065 28.9773 10.5578 28.9943 14.4943 28.9943C18.4309 28.9943 18.9236 28.9773 20.4699 28.9094C22.0105 28.8414 23.0697 28.5922 23.9873 28.2354C24.9389 27.8672 25.7488 27.3688 26.5531 26.5645C27.3574 25.7602 27.8559 24.9502 28.224 23.9986C28.5809 23.0754 28.8301 22.0219 28.8981 20.4813C28.966 18.935 28.983 18.4422 28.983 14.5057C28.983 10.5691 28.966 10.0764 28.8981 8.53008C28.8301 6.98945 28.5809 5.93027 28.224 5.0127C27.8672 4.0498 27.3744 3.23984 26.5645 2.43555C25.7602 1.63125 24.9502 1.13281 23.9986 0.764648C23.0754 0.407812 22.0219 0.158594 20.4813 0.090625C18.9293 0.0169922 18.4365 0 14.5 0Z"
+                      fill="black"
+                    />
+                    <path
+                      d="M14.5 7.05176C10.3879 7.05176 7.05176 10.3879 7.05176 14.5C7.05176 18.6121 10.3879 21.9482 14.5 21.9482C18.6121 21.9482 21.9482 18.6121 21.9482 14.5C21.9482 10.3879 18.6121 7.05176 14.5 7.05176ZM14.5 19.3314C11.8322 19.3314 9.66855 17.1678 9.66855 14.5C9.66855 11.8322 11.8322 9.66855 14.5 9.66855C17.1678 9.66855 19.3314 11.8322 19.3314 14.5C19.3314 17.1678 17.1678 19.3314 14.5 19.3314Z"
+                      fill="black"
+                    />
+                    <path
+                      d="M23.9816 6.75718C23.9816 7.72007 23.2 8.49605 22.2428 8.49605C21.2799 8.49605 20.5039 7.71441 20.5039 6.75718C20.5039 5.79429 21.2855 5.01831 22.2428 5.01831C23.2 5.01831 23.9816 5.79995 23.9816 6.75718Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+
+                <!-- Github -->
+                <a href="https://github.com/rahmatmuflih">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="29"
+                    height="29"
+                    viewBox="0 0 29 29"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M14.512 0C6.48724 0 0 6.53506 0 14.6198C0 21.0824 4.1566 26.5529 9.9229 28.489C10.6438 28.6346 10.9079 28.1744 10.9079 27.7874C10.9079 27.4485 10.8841 26.2867 10.8841 25.0762C6.84726 25.9478 6.00661 23.3334 6.00661 23.3334C5.35786 21.6391 4.39661 21.2036 4.39661 21.2036C3.07534 20.308 4.49286 20.308 4.49286 20.308C5.95849 20.4048 6.72755 21.8087 6.72755 21.8087C8.02476 24.0354 10.1151 23.4062 10.956 23.0189C11.076 22.0748 11.4607 21.4213 11.8692 21.0583C8.64945 20.7194 5.26191 19.4608 5.26191 13.8451C5.26191 12.2476 5.83819 10.9406 6.75131 9.92409C6.60725 9.56109 6.10256 8.06011 6.89568 6.05117C6.89568 6.05117 8.121 5.66382 10.8838 7.55186C12.0667 7.23184 13.2866 7.06904 14.512 7.06767C15.7373 7.06767 16.9864 7.23728 18.1398 7.55186C20.903 5.66382 22.1283 6.05117 22.1283 6.05117C22.9214 8.06011 22.4165 9.56109 22.2724 9.92409C23.2096 10.9406 23.7621 12.2476 23.7621 13.8451C23.7621 19.4608 20.3745 20.6951 17.1308 21.0583C17.6595 21.5182 18.1158 22.3894 18.1158 23.7692C18.1158 25.7297 18.092 27.3032 18.092 27.7871C18.092 28.1744 18.3564 28.6346 19.077 28.4893C24.8433 26.5526 28.9999 21.0824 28.9999 14.6198C29.0237 6.53506 22.5127 0 14.512 0Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+
+                <!-- Whatsapp -->
+                <a
+                  href="https://wa.me/62895322433378?text=halo,%20salam%20kenal"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="29"
+                    height="31"
+                    viewBox="0 0 29 31"
+                    fill="none"
+                  >
+                    <path
+                      d="M0 31L2.03845 23.0395C0.780581 20.7093 0.119625 18.0678 0.120833 15.3592C0.124458 6.89104 6.5709 0 14.4915 0C18.3352 0.00129167 21.9433 1.60167 24.6572 4.50533C27.3699 7.409 28.8634 11.2685 28.8622 15.3734C28.8586 23.8429 22.4121 30.7339 14.4915 30.7339C12.0869 30.7326 9.71739 30.0881 7.61852 28.8636L0 31ZM7.97136 26.0826C9.99652 27.3678 11.9298 28.1377 14.4867 28.139C21.0697 28.139 26.4322 22.4117 26.4359 15.3708C26.4383 8.31575 21.1011 2.59625 14.4963 2.59367C7.90852 2.59367 2.54958 8.32092 2.54716 15.3605C2.54595 18.2345 3.33378 20.3864 4.65691 22.6377L3.44978 27.3497L7.97136 26.0826ZM21.7306 19.025C21.6412 18.8648 21.402 18.7692 21.0419 18.5767C20.683 18.3843 18.9176 17.4556 18.5877 17.3277C18.2591 17.1998 18.0198 17.1353 17.7794 17.5202C17.5401 17.9038 16.8514 18.7692 16.6423 19.025C16.4333 19.2807 16.223 19.313 15.8642 19.1205C15.5053 18.9281 14.3477 18.5238 12.9763 17.2153C11.9093 16.1975 11.1879 14.9407 10.9789 14.5558C10.7699 14.1722 10.9571 13.9642 11.136 13.773C11.2979 13.6012 11.4948 13.3248 11.6749 13.1001C11.8573 12.8779 11.9166 12.7177 12.0374 12.4607C12.157 12.205 12.0978 11.9802 12.0072 11.7878C11.9166 11.5966 11.1988 9.70687 10.9004 8.93833C10.6079 8.19046 10.3119 8.29121 10.092 8.27958L9.40323 8.26667C9.16398 8.26667 8.7749 8.36225 8.44623 8.74717C8.11757 9.13208 7.18957 10.0595 7.18957 11.9492C7.18957 13.8389 8.47644 15.664 8.65527 15.9198C8.83531 16.1755 11.1867 20.0531 14.7888 21.7155C15.6455 22.1108 16.3149 22.3471 16.8357 22.5241C17.696 22.816 18.479 22.7747 19.0977 22.6765C19.7876 22.5667 21.2219 21.7478 21.5216 20.8514C21.8212 19.9537 21.8212 19.1851 21.7306 19.025Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resume" class="mt-5">
+      <div id="Education" class="container px-4 py-5">
+        <div class="d-flex">
+          <img
+            src="./assets/images/mortarboard_fill.svg"
+            alt="mortarboard"
+            class="logo"
+          />
+          <h3 class="pb-2 ps-3">Education</h2>
+        </div>
+        <hr class="w-25 bg-black" />
+        <div class="d-flex ms-5 edu">
+          <div class="edu-line">
+            <div class="circle"></div>
+            <div class="line"></div>
+          </div>
+          <div class="edu-detail">
+            <h4 class="fw-bold">Universitas Amikom Yogyakarta</h3>
+            <p class="lead">
+              Informatics <br />
+              September 2018 - May 2023 <br />
+              GPA: 3.83
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="Skills" class="container px-4 py-5">
+        <div class="d-flex">
+          <img
+            src="./assets/images/laptop_fill.svg"
+            alt="laptop"
+            class="logo"
+          />
+          <h3 class="pb-2 ps-3">Skills</h3>
+        </div>
+        <hr class="w-25 bg-black">
+        <div class="row ms-5 gap-5 skill">
+          <div class="item-skill col-lg-1 col-md-2">
+            <img src="./assets/images/javascript.svg" alt="javascript" height="80">
+            <p>Javascript</p>
+          </div>
+          <div class="item-skill col-lg-1 col-md-2">
+            <img src="./assets/images/php.svg" alt="php" height="80">
+            <p>PHP</p>
+          </div>
+          <div class="item-skill col-lg-1 col-md-2">
+            <img src="./assets/images/bootstrap.svg" alt="bootstrap" height="80">
+            <p>Bootstrap</p>
+          </div>
+          <div class="item-skill col-lg-1 col-md-2">
+            <img src="./assets/images/react.svg" alt="react" height="80">
+            <p>React</p>
+          </div>
+          <div class="item-skill col-lg-1 col-md-2">
+            <img src="./assets/images/mysql_logo.svg" alt="mysql" height="80">
+            <p>MySQL</p>
+          </div>
+        </div>
+      </div>
+      <div id="Portofolio" class="container px-4 py-5">
+        <div class="d-flex">
+          <img src="./assets/images/briefcase.svg" alt="briefcase" class="logo">
+          <h3 class="pb-2 ps-3">Portofolio</h3>
+        </div>
+        <hr class="w-25 bg-black">
+        <div class="row gap-3 ms-5 porto">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Web Scraper for Shopee</h4>
+              <p class="card-text">This is program for scrape any review data on website shopee.co.id via api</p>
+              <a href="https://github.com/rahmatmuflih/Web_Scraper_Data_Review_Shopee" class="card-link">
+                Click for More
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Web Scraper for Tokopedia</h4>
+              <p class="card-text">This is program for scrape any review data on website tokopedia.com via api that can be access in network tab when you press inspect</p>
+              <a href="https://github.com/rahmatmuflih/Web_Scraper_Data_Review_Tokopedia" class="card-link">
+                Click for More
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Furniture Shop (front-end only)</h4>
+              <p class="card-text">This is website for buying some furniture with payment page, and you can customize your product</p>
+              <a href="https://github.com/rahmatmuflih/FurnitureShopFrontEnd" class="card-link">
+                Click for More
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Go-Rent</h4>
+              <p class="card-text">This is website for renting a car and for manage product(car) that you want to rent</p>
+              <a href="https://github.com/rahmatmuflih/Go-Rent" class="card-link">
+                Click for More
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="About-Me" class="my-5">
+      <svg width="2002" height="311" viewBox="0 0 2002 311" fill="none" xmlns="http://www.w3.org/2000/svg" class="about-me-border">
+        <path d="M2001.23 273.52C1953.67 285.815 1906.12 298.11 1858.57 284.98C1811.02 271.85 1763.46 233.294 1715.91 231.5C1668.36 229.706 1620.8 264.673 1573.25 284.98C1525.69 305.287 1478.14 310.935 1430.59 292.62C1383.04 274.305 1335.48 232.026 1287.93 235.32C1240.38 238.614 1192.82 287.48 1145.27 286.89C1097.72 286.3 1050.17 236.252 1002.61 229.59C955.06 222.928 907.506 259.65 859.953 273.52C812.403 287.39 764.849 278.407 717.296 267.79C669.742 257.173 622.189 244.922 574.635 246.78C527.082 248.638 479.532 264.606 431.978 273.52C384.425 282.434 336.871 284.295 289.318 286.89C241.764 289.485 194.211 292.816 146.661 292.62C99.1071 292.424 51.5536 288.702 4.00009 284.98V136C51.5536 136 99.1071 136 146.661 136C194.211 136 241.764 136 289.318 136C336.871 136 384.425 136 431.978 136C479.532 136 527.082 136 574.635 136C622.189 136 669.742 136 717.296 136C764.849 136 812.403 136 859.953 136C907.506 136 955.06 136 1002.61 136C1050.17 136 1097.72 136 1145.27 136C1192.82 136 1240.38 136 1287.93 136C1335.48 136 1383.04 136 1430.59 136C1478.14 136 1525.69 136 1573.25 136C1620.8 136 1668.36 136 1715.91 136C1763.46 136 1811.02 136 1858.57 136C1906.12 136 1953.67 136 2001.23 136V273.52Z" fill="#1FD9F2"/>
+        <path d="M4.00018 30.186C51.5537 17.891 99.1072 5.59599 146.661 18.726C194.211 31.856 241.764 70.412 289.318 72.206C336.871 74 384.425 39.033 431.978 18.726C479.532 -1.58101 527.082 -7.22901 574.635 11.086C622.189 29.401 669.742 71.68 717.296 68.386C764.849 65.092 812.403 16.226 859.953 16.816C907.506 17.406 955.06 67.454 1002.61 74.116C1050.17 80.778 1097.72 44.056 1145.27 30.186C1192.82 16.316 1240.38 25.299 1287.93 35.916C1335.48 46.533 1383.04 58.784 1430.59 56.926C1478.14 55.068 1525.69 39.1 1573.25 30.186C1620.8 21.272 1668.36 19.411 1715.91 16.816C1763.46 14.221 1811.02 10.89 1858.57 11.086C1906.12 11.282 1953.67 15.004 2001.23 18.726V167.706C1953.67 167.706 1906.12 167.706 1858.57 167.706C1811.02 167.706 1763.46 167.706 1715.91 167.706C1668.36 167.706 1620.8 167.706 1573.25 167.706C1525.69 167.706 1478.14 167.706 1430.59 167.706C1383.04 167.706 1335.48 167.706 1287.93 167.706C1240.38 167.706 1192.82 167.706 1145.27 167.706C1097.72 167.706 1050.17 167.706 1002.61 167.706C955.06 167.706 907.506 167.706 859.953 167.706C812.403 167.706 764.849 167.706 717.296 167.706C669.742 167.706 622.189 167.706 574.635 167.706C527.082 167.706 479.532 167.706 431.978 167.706C384.425 167.706 336.871 167.706 289.318 167.706C241.764 167.706 194.211 167.706 146.661 167.706C99.1072 167.706 51.5537 167.706 4.00018 167.706V30.186Z" fill="#1FD9F2"/>
+      </svg>
+      <h1 class="fw-bold fs-1">About Me</h1>
+      <div class="gradient-background container d-flex justify-content-between row gap-5">
+        <div class="card col-xl-6" style="width: 18rem; padding: 0;">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" 
+            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" 
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="90" y="90" fill="#dee2e6" dy=".3em" class="fw-bold fs-1">Hobby</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">I have some hobby that can waste my time, either it useful or not.</p>
+          </div>
+          <ul class="list-group list-group-flush card-body">
+            <li class="list-group-item">Read Books 👨‍🏫</li>
+            <li class="list-group-item">Programming 👨‍💻</li>
+            <li class="list-group-item">Watching Film or Anime 🎬</li>
+            <li class="list-group-item">Cycling 🚴‍♂️</li>
+          </ul>
+        </div>
+        <div class="card col-xl-6" style="width: 18rem; padding: 0;">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" 
+            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" 
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="70" y="90" fill="#dee2e6" dy=".3em" class="fw-bold fs-1">Interest</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">I have something that i interest to do.</p>
+          </div>
+          <ul class="list-group list-group-flush card-body">
+            <li class="list-group-item">Learn Machine Learning</li>
+            <li class="list-group-item">Learn C++</li>
+            <li class="list-group-item">Learn to draw in cartesius diagram</li>
+            <li class="list-group-item">Play Games</li>
+          </ul>
+        </div>
+        <div class="card col-xl-6" style="width: 18rem; padding: 0;">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" 
+            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" 
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="70" y="70" fill="#dee2e6" dy=".3em" class="fw-bold fs-1">Currently</text>
+            <text x="70" y="100" fill="#dee2e6" dy=".3em" class="fw-bold fs-1">Working</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">I have something that i currently working on.</p>
+          </div>
+          <ul class="list-group list-group-flush card-body">
+            <li class="list-group-item">Freelance</li>
+            <li class="list-group-item">Find Job</li>
+            <li class="list-group-item">Learn More About Algorithms</li>
+          </ul>
+        </div>
+        <div class="card col-xl-6" style="width: 18rem; padding: 0;">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" 
+            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" 
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="90" y="90" fill="#dee2e6" dy=".3em" class="fw-bold fs-1">Dreams</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">I have something that i want to achieve.</p>
+          </div>
+          <ul class="list-group list-group-flush card-body">
+            <li class="list-group-item">I want to make software company.</li>
+            <li class="list-group-item">I want to have free mindset</li>
+            <li class="list-group-item">I want to make something for my country</li>
+            <li class="list-group-item">I want to make group company</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5">
+      <div class="d-flex flex-column align-items-center my-5">
+        <h1>Get in Touch</h3>
+        <div class="d-flex gap-3 m-3">
+          <!-- linkedin -->
+          <a
+            href="https://www.linkedin.com/in/rahmat-muflih-arifin-040a23144/"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+            >
+              <path
+                d="M26.8533 0H2.14102C0.957227 0 0 0.93457 0 2.09004V26.9043C0 28.0598 0.957227 29 2.14102 29H26.8533C28.0371 29 29 28.0598 29 26.91V2.09004C29 0.93457 28.0371 0 26.8533 0ZM8.60371 24.7123H4.29902V10.8693H8.60371V24.7123ZM6.45137 8.9832C5.06934 8.9832 3.95352 7.86738 3.95352 6.49102C3.95352 5.11465 5.06934 3.99883 6.45137 3.99883C7.82773 3.99883 8.94355 5.11465 8.94355 6.49102C8.94355 7.86172 7.82773 8.9832 6.45137 8.9832ZM24.7123 24.7123H20.4133V17.9834C20.4133 16.3805 20.385 14.3131 18.176 14.3131C15.9387 14.3131 15.5988 16.0633 15.5988 17.8701V24.7123H11.3055V10.8693H15.4289V12.7611H15.4855C16.0576 11.6736 17.4623 10.5238 19.5523 10.5238C23.908 10.5238 24.7123 13.3898 24.7123 17.1168V24.7123Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+          <!-- instagram -->
+          <a href="https://www.instagram.com/rahmatmufliharifin/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+            >
+              <path
+                d="M14.5 2.61113C18.3742 2.61113 18.833 2.62812 20.3566 2.69609C21.7727 2.7584 22.5373 2.99629 23.0471 3.19453C23.7211 3.45508 24.2082 3.77227 24.7123 4.27637C25.2221 4.78613 25.5336 5.26758 25.7941 5.9416C25.9924 6.45137 26.2303 7.22168 26.2926 8.63203C26.3605 10.1613 26.3775 10.6201 26.3775 14.4887C26.3775 18.3629 26.3605 18.8217 26.2926 20.3453C26.2303 21.7613 25.9924 22.526 25.7941 23.0357C25.5336 23.7098 25.2164 24.1969 24.7123 24.701C24.2025 25.2107 23.7211 25.5223 23.0471 25.7828C22.5373 25.9811 21.767 26.2189 20.3566 26.2812C18.8273 26.3492 18.3686 26.3662 14.5 26.3662C10.6258 26.3662 10.167 26.3492 8.64336 26.2812C7.22734 26.2189 6.4627 25.9811 5.95293 25.7828C5.27891 25.5223 4.7918 25.2051 4.2877 24.701C3.77793 24.1912 3.46641 23.7098 3.20586 23.0357C3.00762 22.526 2.76973 21.7557 2.70742 20.3453C2.63945 18.816 2.62246 18.3572 2.62246 14.4887C2.62246 10.6145 2.63945 10.1557 2.70742 8.63203C2.76973 7.21602 3.00762 6.45137 3.20586 5.9416C3.46641 5.26758 3.78359 4.78047 4.2877 4.27637C4.79746 3.7666 5.27891 3.45508 5.95293 3.19453C6.4627 2.99629 7.23301 2.7584 8.64336 2.69609C10.167 2.62812 10.6258 2.61113 14.5 2.61113ZM14.5 0C10.5635 0 10.0707 0.0169922 8.52442 0.0849609C6.98379 0.15293 5.92461 0.402148 5.00703 0.758984C4.04981 1.13281 3.23984 1.62559 2.43555 2.43555C1.62559 3.23984 1.13281 4.04981 0.758984 5.00137C0.402148 5.92461 0.15293 6.97812 0.084961 8.51875C0.0169922 10.0707 0 10.5635 0 14.5C0 18.4365 0.0169922 18.9293 0.084961 20.4756C0.15293 22.0162 0.402148 23.0754 0.758984 23.993C1.13281 24.9502 1.62559 25.7602 2.43555 26.5645C3.23984 27.3688 4.04981 27.8672 5.00137 28.2354C5.92461 28.5922 6.97813 28.8414 8.51875 28.9094C10.065 28.9773 10.5578 28.9943 14.4943 28.9943C18.4309 28.9943 18.9236 28.9773 20.4699 28.9094C22.0105 28.8414 23.0697 28.5922 23.9873 28.2354C24.9389 27.8672 25.7488 27.3688 26.5531 26.5645C27.3574 25.7602 27.8559 24.9502 28.224 23.9986C28.5809 23.0754 28.8301 22.0219 28.8981 20.4813C28.966 18.935 28.983 18.4422 28.983 14.5057C28.983 10.5691 28.966 10.0764 28.8981 8.53008C28.8301 6.98945 28.5809 5.93027 28.224 5.0127C27.8672 4.0498 27.3744 3.23984 26.5645 2.43555C25.7602 1.63125 24.9502 1.13281 23.9986 0.764648C23.0754 0.407812 22.0219 0.158594 20.4813 0.090625C18.9293 0.0169922 18.4365 0 14.5 0Z"
+                fill="black"
+              />
+              <path
+                d="M14.5 7.05176C10.3879 7.05176 7.05176 10.3879 7.05176 14.5C7.05176 18.6121 10.3879 21.9482 14.5 21.9482C18.6121 21.9482 21.9482 18.6121 21.9482 14.5C21.9482 10.3879 18.6121 7.05176 14.5 7.05176ZM14.5 19.3314C11.8322 19.3314 9.66855 17.1678 9.66855 14.5C9.66855 11.8322 11.8322 9.66855 14.5 9.66855C17.1678 9.66855 19.3314 11.8322 19.3314 14.5C19.3314 17.1678 17.1678 19.3314 14.5 19.3314Z"
+                fill="black"
+              />
+              <path
+                d="M23.9816 6.75718C23.9816 7.72007 23.2 8.49605 22.2428 8.49605C21.2799 8.49605 20.5039 7.71441 20.5039 6.75718C20.5039 5.79429 21.2855 5.01831 22.2428 5.01831C23.2 5.01831 23.9816 5.79995 23.9816 6.75718Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+          <!-- github -->
+          <a href="https://github.com/rahmatmuflih">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M14.512 0C6.48724 0 0 6.53506 0 14.6198C0 21.0824 4.1566 26.5529 9.9229 28.489C10.6438 28.6346 10.9079 28.1744 10.9079 27.7874C10.9079 27.4485 10.8841 26.2867 10.8841 25.0762C6.84726 25.9478 6.00661 23.3334 6.00661 23.3334C5.35786 21.6391 4.39661 21.2036 4.39661 21.2036C3.07534 20.308 4.49286 20.308 4.49286 20.308C5.95849 20.4048 6.72755 21.8087 6.72755 21.8087C8.02476 24.0354 10.1151 23.4062 10.956 23.0189C11.076 22.0748 11.4607 21.4213 11.8692 21.0583C8.64945 20.7194 5.26191 19.4608 5.26191 13.8451C5.26191 12.2476 5.83819 10.9406 6.75131 9.92409C6.60725 9.56109 6.10256 8.06011 6.89568 6.05117C6.89568 6.05117 8.121 5.66382 10.8838 7.55186C12.0667 7.23184 13.2866 7.06904 14.512 7.06767C15.7373 7.06767 16.9864 7.23728 18.1398 7.55186C20.903 5.66382 22.1283 6.05117 22.1283 6.05117C22.9214 8.06011 22.4165 9.56109 22.2724 9.92409C23.2096 10.9406 23.7621 12.2476 23.7621 13.8451C23.7621 19.4608 20.3745 20.6951 17.1308 21.0583C17.6595 21.5182 18.1158 22.3894 18.1158 23.7692C18.1158 25.7297 18.092 27.3032 18.092 27.7871C18.092 28.1744 18.3564 28.6346 19.077 28.4893C24.8433 26.5526 28.9999 21.0824 28.9999 14.6198C29.0237 6.53506 22.5127 0 14.512 0Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+          <!-- whatsapp -->
+          <a
+          href="https://wa.me/62895322433378?text=halo,%20salam%20kenal"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="29"
+            height="31"
+            viewBox="0 0 29 31"
+            fill="none"
+          >
+            <path
+              d="M0 31L2.03845 23.0395C0.780581 20.7093 0.119625 18.0678 0.120833 15.3592C0.124458 6.89104 6.5709 0 14.4915 0C18.3352 0.00129167 21.9433 1.60167 24.6572 4.50533C27.3699 7.409 28.8634 11.2685 28.8622 15.3734C28.8586 23.8429 22.4121 30.7339 14.4915 30.7339C12.0869 30.7326 9.71739 30.0881 7.61852 28.8636L0 31ZM7.97136 26.0826C9.99652 27.3678 11.9298 28.1377 14.4867 28.139C21.0697 28.139 26.4322 22.4117 26.4359 15.3708C26.4383 8.31575 21.1011 2.59625 14.4963 2.59367C7.90852 2.59367 2.54958 8.32092 2.54716 15.3605C2.54595 18.2345 3.33378 20.3864 4.65691 22.6377L3.44978 27.3497L7.97136 26.0826ZM21.7306 19.025C21.6412 18.8648 21.402 18.7692 21.0419 18.5767C20.683 18.3843 18.9176 17.4556 18.5877 17.3277C18.2591 17.1998 18.0198 17.1353 17.7794 17.5202C17.5401 17.9038 16.8514 18.7692 16.6423 19.025C16.4333 19.2807 16.223 19.313 15.8642 19.1205C15.5053 18.9281 14.3477 18.5238 12.9763 17.2153C11.9093 16.1975 11.1879 14.9407 10.9789 14.5558C10.7699 14.1722 10.9571 13.9642 11.136 13.773C11.2979 13.6012 11.4948 13.3248 11.6749 13.1001C11.8573 12.8779 11.9166 12.7177 12.0374 12.4607C12.157 12.205 12.0978 11.9802 12.0072 11.7878C11.9166 11.5966 11.1988 9.70687 10.9004 8.93833C10.6079 8.19046 10.3119 8.29121 10.092 8.27958L9.40323 8.26667C9.16398 8.26667 8.7749 8.36225 8.44623 8.74717C8.11757 9.13208 7.18957 10.0595 7.18957 11.9492C7.18957 13.8389 8.47644 15.664 8.65527 15.9198C8.83531 16.1755 11.1867 20.0531 14.7888 21.7155C15.6455 22.1108 16.3149 22.3471 16.8357 22.5241C17.696 22.816 18.479 22.7747 19.0977 22.6765C19.7876 22.5667 21.2219 21.7478 21.5216 20.8514C21.8212 19.9537 21.8212 19.1851 21.7306 19.025Z"
+              fill="black"
+            />
+          </svg>
+          </a>
+        </div>
+        <p>&copy; Rahmat Muflih Arifin, 2023</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
