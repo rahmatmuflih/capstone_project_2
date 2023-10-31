@@ -121,14 +121,12 @@ footer h1 {
     width: 18.8%;
   }
   .name {
-    align-items: start !important;
     margin-left: 65px;
   }
 }
 @media (max-width: 1200px) {
   .name {
     width: 75%;
-    align-items: start !important;
     margin-left: 196px;
   }
   .brief {
@@ -160,7 +158,6 @@ footer h1 {
 @media (max-width: 992px) {
   .name {
     width: 90%;
-    align-items: start !important;
     margin-left: 196px;
   }
   .photo {
