@@ -35,6 +35,9 @@ nav {
   position: absolute;
   margin-left: 480px;
 }
+.name {
+  margin-left: 156px;
+}
 .social-media svg {
   width: fit-content !important;
   margin: 0;
