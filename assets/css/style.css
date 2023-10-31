@@ -82,7 +82,7 @@ hr {
   margin-left: 150px;
   bottom: 180px;
 }
-.gradient-background {
+.about-me-container {
   padding: 0 205px;
   gap: 100px !important;
   margin: auto;
@@ -170,7 +170,7 @@ footer h1 {
     height: 280px;
     margin: 280px 0 0 158px;
   }
-  .gradient-background {
+  .about-me-container {
     padding: 20px 15px;
     margin: auto !important;
   }
@@ -247,7 +247,7 @@ footer h1 {
   #About-Me svg {
     height: fit-content;
   }
-  .gradient-background {
+  .about-me-container {
     padding: 20px 15px;
     margin: auto !important;
   }
