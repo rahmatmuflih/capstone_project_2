@@ -26,12 +26,11 @@ nav {
   font-size: 20px;
   margin-bottom: 205px;
 }
-.photo svg {
+.photo > svg {
   margin-left: 185px;
 }
 .dashed-line {
   max-width: 30.2%;
-  min-width: 30.2%;
   border: 1px black dashed;
   position: absolute;
   margin-left: 480px;
@@ -99,6 +98,30 @@ footer h1 {
 }
 
 /* Responsiveness */
+@media (min-width: 1537px) {
+  body {
+    width: 1536px;
+    margin: auto;
+    border: 1px dashed black;
+  }
+}
+@media (max-width: 1536px) {
+  body {
+    border: none;
+  }
+}
+@media (max-width: 1400px) {
+  .photo > svg {
+    margin-left: 90px;
+  }
+  .dashed-line {
+    width: 18.8%;
+  }
+  .name {
+    align-items: start !important;
+    margin-left: 65px;
+  }
+}
 @media (max-width: 1200px) {
   .name {
     width: 75%;
@@ -113,6 +136,9 @@ footer h1 {
     order: 1;
     margin-left: 100px;
     width: 75%;
+  }
+  .photo > svg {
+    margin-left: 185px;
   }
   .dashed-line {
     width: 0px;
@@ -197,6 +223,7 @@ footer h1 {
     gap: 10px !important;
     width: 100%;
     justify-content: start;
+    padding-left: 25px;
   }
   .brief {
     margin: 20px 0 0 38px;
@@ -212,13 +239,10 @@ footer h1 {
     height: 42%;
     margin: 280px 0 0 38px;
   }
-  .social-media {
-    padding-left: 25px;
-  }
   #About-Me h1 {
     margin: 10px 0 0 20px;
     font-size: 16pt !important;
-    bottom: 50px;
+    bottom: 60px;
   }
   #About-Me svg {
     height: fit-content;
@@ -241,5 +265,8 @@ footer h1 {
   .dashed-line {
     margin-top: 220px;
     height: 37%;
+  }
+  #About-Me h1 {
+    bottom: 50px;
   }
 }
